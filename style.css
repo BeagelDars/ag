@@ -9,6 +9,23 @@ body {
 }
 
 button {
-    width: 80%;
-    background-color: yellow;
+    width: 67%; 
+    height: 67%;
+    background-color: rgb(85, 18, 30);
+    color: aliceblue;
+    border-radius: 67px;
+    font-size: 67px;
+    transition: all 0.5s;
+}
+
+#manfred {
+    background-color: rgb(13, 13, 81);
+}
+
+#manfred:hover {
+    font-size: 90px;
+}
+
+#helmut:hover {
+    transform: scale(0.9);
 }

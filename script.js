@@ -1,20 +1,11 @@
-const text = document.getElementById('text');
+const manfred = document.getElementById("manfred");
 
-let count = 0;
+function mittelfinger() {
+    manfred.innerText = "🫪";
+};
 
-function updateText() {
-    text.textContent = count;
-    count = Number(localStorage.getItem('count'));
-}
-
-function save() {
-    localStorage.setItem('count', count)
-}
-
-function add() {
-    count++;
-    save();
-    updateText();
-}
-
-updateText();
+function sixseven() {
+    const sechssieben = new Audio ('audio/67.mp3');
+    sechssieben.loop = true;
+    sechssieben.play();
+};
